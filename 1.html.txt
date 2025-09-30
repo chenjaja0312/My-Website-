@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<title>陳佳瑄的個人履歷</title>
+<style>
+  body {
+    font-family: "Microsoft JhengHei", sans-serif;
+    background: #f0f4f8;
+    margin: 20px;
+  }
+  .container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px #ccc;
+  }
+  .box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 20px;
+    object-fit: cover;
+    border: 2px solid #555;
+  }
+  .header h1 {
+    margin: 0;
+  }
+  .basic-info p, .personality p, .interest p, .skills p, .club-history p, .traits p {
+    margin: 5px 0;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header box">
+      <h1>陳佳瑄</h1>
+      <img src="headshot.jpg" alt="陳佳瑄大頭貼" />
+    </div>
+
+    <div class="basic-info box">
+      <h2>基本資料</h2>
+      <p>電話號碼: 0966365100</p>
+      <p>學歷: 目前就讀中原大學智慧運算與大數據學士班一年級</p>
+      <p>信箱: chenjaja0312@gmail.com</p>
+    </div>
+
+    <div class="personality box">
+      <h2>個性 - MBTI</h2>
+      <p>ISFJ</p>
+      <p>總是把別人的需求放在第一位、容易感同身受周遭朋友的需求、負責任</p>
+    </div>
+
+    <div class="interest box">
+      <h2>興趣</h2>
+      <p>聽音樂 (e.g. 流行音樂、古典音樂)、運動 (e.g. 羽球、排球、單車、游泳)、放空耍廢</p>
+    </div>
+
+    <div class="skills box">
+      <h2>專長</h2>
+      <p>鋼琴、小提琴、燈光控制</p>
+    </div>
+
+    <div class="club-history box">
+      <h2>高中社團經歷</h2>
+      <p>科學探究社 - 曾去過成大發表過論文、在學校召開記者會發表專題</p>
+    </div>
+
+    <div class="traits box">
+      <h2>個人特質</h2>
+      <p>自我要求高，對於學習過的觀念總是需要鑽研再鑽研直到完全的釐清觀念</p>
+    </div>
+  </div>
+</body>
+</html>
+
